@@ -1,17 +1,12 @@
+import TodayTasks from './TodayTasks'
+
+
 function App() {
   return (
     <>
       <h1>タスク管理アプリ</h1>
-      <TodaysTasks />
+      <TodayTasks />
     </>
-  )
-}
-
-function TodaysTasks() {
-  return(
-    <section>
-      <h2>今日やること</h2>
-    </section>
   )
 }
 
